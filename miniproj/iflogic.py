@@ -15,6 +15,10 @@ month = month.lower()
 
 if month == 'december':
     zodiac_sign = 'Sagittarius' if (date < 22) else 'capricorn'
+    #if date < 22:
+    #    zodiac_sign = 'Sagittarius'
+    #else:
+    #    zodiac_sign = 'capricorn'
 elif month == 'january':
     zodiac_sign = 'Capricorn' if (date < 20) else 'aquarius'
 elif month == 'february':
